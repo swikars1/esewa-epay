@@ -1,0 +1,30 @@
+{
+  "name": "npm-library",
+  "description": "NPM Library template",
+  "license": "MIT",
+  "version": "0.1.4",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "axios": "^1.6.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swikars1/library-name"
+  },
+  "bugs": {
+    "url": "https://github.com/swikars1/library-name/issues"
+  },
+  "homepage": "https://github.com/swikars1/library-name#readme",
+  "author": "Swikar Sharma <swikarsharma@gmail.com>"
+}
